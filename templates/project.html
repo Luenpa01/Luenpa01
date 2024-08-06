@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects - Developer Faizan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      body {
+        background-color: #121212;
+        color: #ffffff;
+      }
+      .card {
+        background-color: #1e1e1e;
+        color: #ffffff;
+      }
+      .btn-primary {
+        background-color: #0066cc;
+        border-color: #0066cc;
+      }
+      .btn-primary:hover {
+        background-color: #005bb5;
+        border-color: #005bb5;
+      }
+      .navbar {
+        background-color: #1e1e1e;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Developer Faizan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid my-5">
+      <h2 class="text-center mb-4">Glance of My Works</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="{% static 'img/2.jpg' %}" class="card-img-top" alt="React Project">
+            <div class="card-body">
+              <h5 class="card-title">React Project</h5>
+              <p class="card-text">A dynamic user interface built with React.</p>
+              <p><strong>Technologies:</strong> React, JavaScript, HTML, CSS</p>
+              <p><strong>Challenges:</strong> Implementing responsive design for various screen sizes.</p>
+              <p><strong>Duration:</strong> 3 months</p>
+              <p><strong>Impact:</strong> Improved user engagement by 30%.</p>
+              <a href="#" class="btn btn-primary">Check For Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="{% static 'img/2.jpg' %}" class="card-img-top" alt="MERN Project">
+            <div class="card-body">
+              <h5 class="card-title">MERN Project</h5>
+              <p class="card-text">A full-stack application using MongoDB, Express, React, and Node.js.</p>
+              <p><strong>Technologies:</strong> MongoDB, Express, React, Node.js</p>
+              <p><strong>Challenges:</strong> Integrating real-time data updates.</p>
+              <p><strong>Duration:</strong> 4 months</p>
+              <p><strong>Impact:</strong> Increased system efficiency by 40%.</p>
+              <a href="#" class="btn btn-primary">Check For Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="{% static 'img/2.jpg' %}" class="card-img-top" alt="Django Project">
+            <div class="card-body">
+              <h5 class="card-title">Django Project</h5>
+              <p class="card-text">A web application developed with Django.</p>
+              <p><strong>Technologies:</strong> Django, Python, PostgreSQL</p>
+              <p><strong>Challenges:</strong> Managing complex database relationships.</p>
+              <p><strong>Duration:</strong> 2 months</p>
+              <p><strong>Impact:</strong> Enhanced data processing speed by 25%.</p>
+              <a href="#" class="btn btn-primary">Check for Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="{% static 'img/2.jpg' %}" class="card-img-top" alt="Data Science Project">
+            <div class="card-body">
+              <h5 class="card-title">Data Science</h5>
+              <p class="card-text">Projects involving data analysis and visualization.</p>
+              <p><strong>Technologies:</strong> Python, Pandas, Matplotlib</p>
+              <p><strong>Challenges:</strong> Cleaning and processing large datasets.</p>
+              <p><strong>Duration:</strong> 3 months</p>
+              <p><strong>Impact:</strong> Provided actionable insights for business decisions.</p>
+              <a href="#" class="btn btn-primary">Check for Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="{% static 'img/2.jpg' %}" class="card-img-top" alt="Machine Learning Project">
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning</h5>
+              <p class="card-text">Applications utilizing machine learning models.</p>
+              <p><strong>Technologies:</strong> Scikit-learn, TensorFlow</p>
+              <p><strong>Challenges:</strong> Optimizing model accuracy.</p>
+              <p><strong>Duration:</strong> 5 months</p>
+              <p><strong>Impact:</strong> Improved predictive accuracy by 15%.</p>
+              <a href="#" class="btn btn-primary">Check for Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="{% static 'img/2.jpg' %}" class="card-img-top" alt="Generative AI Project">
+            <div class="card-body">
+              <h5 class="card-title">Generative AI</h5>
+              <p class="card-text">Exploring generative models and AI creativity.</p>
+              <p><strong>Technologies:</strong> Python, PyTorch</p>
+              <p><strong>Challenges:</strong> Training deep learning models.</p>
+              <p><strong>Duration:</strong> 6 months</p>
+              <p><strong>Impact:</strong> Generated novel content for creative applications.</p>
+              <a href="#" class="btn btn-primary">Check for Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center text-lg-start bg-dark text-white">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Developer Faizan</h5>
+            <p>
+              Passionate developer with expertise in web and software
+              development. Let's build something amazing together.
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Projects</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="/project" class="text-white">React Project</a></li>
+              <li><a href="/project" class="text-white">MERN Project</a></li>
+              <li><a href="/project" class="text-white">Django Project</a></li>
+              <li><a href="/project" class="text-white">Data Science</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Useful Links</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="/about" class="text-white">About</a></li>
+              <li><a href="/contact" class="text-white">Contact</a></li>
+              <li><a href="/services" class="text-white">Services</a></li>
+              <li><a href="/support" class="text-white">Support</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact</h5>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope me-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <div class="mt-4">
+              <a href="#" class="text-reset me-4"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-reset me-4"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-reset me-4"
+                ><i class="fab fa-google"></i
+              ></a>
+              <a href="#" class="text-reset me-4"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-reset me-4"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="text-reset me-4"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright:
+        <a class="text-white fw-bold" href="#">DeveloperFaizan.com</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
